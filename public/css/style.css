@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contain {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-wrapper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 5px 5px -3px rgba(148, 149, 174, 0.2), 0px 8px 10px 1px rgba(148, 149, 174, 0.14), 0px 3px 14px 2px rgba(148, 149, 174, 0.12);
+          box-shadow: 0px 5px 5px -3px rgba(148, 149, 174, 0.2), 0px 8px 10px 1px rgba(148, 149, 174, 0.14), 0px 3px 14px 2px rgba(148, 149, 174, 0.12);
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.card-wrapper:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.card-wrapper .images-wrapper {
+  height: 10rem;
+}
+
+.card-wrapper .images-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-wrapper .text-wrapper {
+  padding: 2rem;
+}
+
+.card-wrapper .text-wrapper .title-and-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1.5625rem;
+}
+
+.card-wrapper .text-wrapper .title-and-location strong {
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.card-wrapper .text-wrapper .title-and-location span {
+  font-size: 20px;
+}
+
+.card-wrapper .text-wrapper .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+  padding: 0 1.25rem;
+}
+/*# sourceMappingURL=style.css.map */
